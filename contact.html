@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Natàlia Padilla | My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Natàlia Padilla, a UX designer">
+  <meta name="author" content="Natàlia Padilla">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="images/mp.png">
+</head>
+
+<body>
+  <a class="skip-content" href="#contact">Skip to content</a>
+
+  <header>
+    <nav class="container">
+      <ul>
+        <li>
+          <a href="index.html" title="Home">
+            <div class="brand"><img src="images/mp.png" alt="Logo">
+              <div> My portfolio</div>
+            </div>
+          </a>
+        </li>
+        <li><a href="index.html" title="Home">About</a></li>
+        <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+        <li><a href="contact.html" title="Contact" class="active">Contact</a></li>
+        <li><a href="#" title="Color mode">Color mode</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contact">
+    <div class="container">
+      <section>
+        <h1><span>Contact</span></h1>
+        <div class="row">
+          <div class="column40" id="contact-data">
+            <div>
+              <iframe id="inlineFrameExample" title="Inline Frame Example" height="310"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188">
+              </iframe>
+            </div>
+            <div>
+              <h3>Say hello</h3>
+              <div class="row">
+                <div class="column60">
+                  <p><a href="tel:0100200960" title="phone">010 020 0960</a></p>
+                  <p><a href="mailto:hello@company.co" title="email">hello@company.co</a></p>
+                </div>
+                <div class="column40">
+                  <p><a href="https://dribbble.com/" title="Dribble" target="_blank">Dribble</a></p>
+                  <p><a href="https://www.instagram.com/" title="Instagram" target="_blank">Instagram</a></p>
+                  <p><a href="https://www.youtube.com/" title="Youtube" target="_blank">Youtube</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column60" id="contact-form">
+            <h2>Interested to work together? Let's talk</h2>
+            <form action="/" method="post">
+              <div>
+                <label for="name">Your name</label>
+                <input class="form-control" type="text" name="name" id="name" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input class="form-control" type="email" name="email" id="email" required>
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input class="form-control" type="tel" name="phone" id="phone" pattern="[0-9]{9}" required>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="10" required></textarea>
+              </div>
+              <div>
+                <span role="checkbox" aria-checked="false" tabindex="0" aria-labelledby="terms-label"></span>
+                <input type="checkbox" id="terms" name="terms" value="accept" required>
+                <label for="terms" id="terms-label">I have read and accept the <a href="#"
+                    title="Terms and conditions">Terms and
+                    conditions</a></label><br>
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>Copyright © 2021 Company Name. All rights reserved</p>
+      <p>Designed by <a href="https://www.facebook.com/tooplate" title="Tooplate" target="_blank">Tooplate</a></p>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
